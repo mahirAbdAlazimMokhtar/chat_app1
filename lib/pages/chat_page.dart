@@ -10,7 +10,7 @@ class ChatPage extends StatelessWidget {
   final _controller = ScrollController();
 
   CollectionReference message_reference =
-      FirebaseFirestore.instance.collection(KMessageCollection);
+      FirebaseFirestore.instance.collection(kMessageCollection);
 
   TextEditingController controller = TextEditingController();
 

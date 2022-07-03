@@ -1,2 +1,2 @@
 const kMessage = 'message';
-const KMessageCollection = 'messenger';
+const kMessageCollection = 'messenger';
